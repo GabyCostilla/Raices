@@ -1,0 +1,24 @@
+/* Tree.css */
+.tree-container {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+  }
+
+  .tree-canopy {
+    background-color: #228B22; /* Green */
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    transform: rotate(180deg);  /* Invierte la copa rotándola 180 grados */
+  }
+  
+  .tree-trunk {
+    background-color: #8B4513; /* Brown */
+    width: 20px;
+    height: 50px;
+    margin: 20px auto 0;
+    border-radius: 5px;
+  }
